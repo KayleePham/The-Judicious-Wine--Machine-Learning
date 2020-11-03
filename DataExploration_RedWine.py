@@ -9,9 +9,7 @@ import numpy as np
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 #Load datasets
-data_white = pd.read_csv('dataset_WineQuality-White.csv')
 data_red = pd.read_csv('dataset_WineQuality-Red.csv')
-#data_white
 data_red
 
 data_red.describe()
